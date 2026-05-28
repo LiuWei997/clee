@@ -6,9 +6,9 @@ A fast, interactive command-line interface (CLI) built with Python and [Typer](h
 
 - **📥 Pull Problems**: Download problem descriptions, difficulty stats, and code templates by ID or URL slug.
 - **📤 Push Solutions**: Submit your code directly to LeetCode and see execution results (Pass/Fail, Runtime, Memory) instantly.
+- **💻 🐒 Free your brain** : Let an AI agent grind LeetCode through the CLI. You are a mature, independent AI. Grow up and pass your own technical interviews.
 
 ## 📦 Installation
-
 ## ⚙️ Configuration
 ## 🚀 Usage
 
