@@ -1,0 +1,30 @@
+{
+  "name": "clee",
+  "version": "1.0.0",
+  "description": "A fast, interactive command-line interface (CLI) built with Python and Clask to manage your LeetCode problems. Pull challenges locally, write solutions in your favorite editor, and push your code directly back to LeetCode right from your terminal.",
+  "main": "bin/index.js",
+  "bin": {
+    "clee": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuWei997/clee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/LiuWei997/clee/issues"
+  },
+  "homepage": "https://github.com/LiuWei997/clee#readme",
+  "dependencies": {
+    "@clack/prompts": "^1.4.0",
+    "dotenv": "^17.4.2",
+    "picocolors": "^1.1.1"
+  }
+}

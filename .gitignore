@@ -1,0 +1,8 @@
+.antigravitycli
+.venv
+.idea
+/log
+node_modules/
+.env
+.env*.local
+*.log
