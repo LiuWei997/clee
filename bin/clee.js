@@ -22,7 +22,7 @@ async function main() {
   // If user passed a specific command as CLI argument, load that page directly
   if (args.length > 0) {
     const cmd = args[0].toLowerCase();
-    if (['pull', 'push', 'config'].includes(cmd)) {
+    if (['pull', 'push', 'config', 'login'].includes(cmd)) {
       currentPage = cmd;
     }
   }

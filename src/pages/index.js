@@ -35,6 +35,7 @@ export default async function run(context) {
   const choice = await select({
     message: 'Navigate to:',
     options: [
+      { value: 'login', label: '🔑 Login to LeetCode', hint: 'Log in via browser and import session' },
       { value: 'pull', label: '📥 Pull Problems', hint: 'Download LeetCode problems locally' },
       { value: 'push', label: '📤 Push Solutions', hint: 'Submit your solution code to LeetCode' },
       { value: 'config', label: '⚙️  Configure Credentials', hint: 'Setup email, session, and CSRF token' },
